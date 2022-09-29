@@ -1,8 +1,12 @@
 import descriptiveText from "../../components/descriptiveText";
+import sectionInputs from "../sectionInputs";
 
 function mainContent(){
     return/*html*/`
-    ${descriptiveText()}
+     <main>
+      ${descriptiveText()}
+      ${sectionInputs()}
+     </main>
     `
 };
 
