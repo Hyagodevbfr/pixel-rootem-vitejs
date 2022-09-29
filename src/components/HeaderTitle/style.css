@@ -1,0 +1,13 @@
+header{
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.header-title{
+    text-align: center;
+    font-size: 110px;
+    text-transform: uppercase;
+    font-family: var(--title-font);
+    color: var(--title-font-color);
+}
