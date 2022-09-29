@@ -1,0 +1,14 @@
+button{
+    margin-top: 15px;
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    color: var(--btn-font-color);
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all ease 0.3ms;
+    background-color: var(--btn-bg-color);
+    box-shadow: 3px 5px 8px var(--shadow);
+}

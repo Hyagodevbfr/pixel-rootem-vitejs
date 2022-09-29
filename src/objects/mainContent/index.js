@@ -1,3 +1,4 @@
+import './style.css'
 import descriptiveText from "../../components/descriptiveText";
 import sectionInputs from "../sectionInputs";
 

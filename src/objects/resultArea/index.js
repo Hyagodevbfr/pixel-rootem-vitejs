@@ -1,6 +1,8 @@
+import './style.css'
+
 function resultArea(){
     return /*html*/`
-     <span class="resultText">Informe os valores para calcular.</span>
+     <span class="result-text">Informe os valores para calcular.</span>
     `
 };
 

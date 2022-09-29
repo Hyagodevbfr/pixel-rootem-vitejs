@@ -1,0 +1,16 @@
+.result-text{
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: 1px dashed var(--outline);
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.result-text:hover{
+    background-color: var(--bg-result-hover);
+    outline: 1px dashed var(--outline-result-hover);
+    cursor: pointer;
+}
