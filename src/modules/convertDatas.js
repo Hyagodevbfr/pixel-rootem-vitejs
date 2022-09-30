@@ -1,10 +1,13 @@
 import { pxValue, remValue } from "./readData"
+import { resultArea } from "./resultArea"
 
-function convertDatas(){
+ function convertDatas(){
     let conversion = pxValue()/remValue()
+    let remConverted = Number(conversion)
     
+    resultArea(remConverted)
 
-    console.log(`${conversion.toFixed(2)}rem`);
+    return remConverted;
 };
 
 export default convertDatas
