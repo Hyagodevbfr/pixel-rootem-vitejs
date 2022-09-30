@@ -1,13 +1,12 @@
-   const numberPixel = Number(document.querySelector('#number-pixel')).value
-   const numberRem = Number(document.querySelector('#number-rem')).value
+export function pxValue(){
+    const pxValue = document.querySelector('#number-pixel').value
 
-function readData(){
-
-    let values = {}
-      numberPixel,
-      numberRem
-
-    return values
+    return pxValue
 }
 
-export default readData;
+export function remValue(){
+    const remValue = document.querySelector('#number-rem').value
+   
+          return remValue
+   
+}

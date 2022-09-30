@@ -1,21 +1,21 @@
-import readData from '../../modules/readData'
-import validatorData from '../../modules/validatorData'
-
+import convertDatas from '../../modules/convertDatas';
+import { pxValue, remValue } from '../../modules/readData';
+import validateData from '../../modules/validateData';
 import './style.css'
 
-function buttonAction(){
-    window.buttonaction = {}
-    window.buttonaction.handleClick = () => {
-        //   const numberPixel = Number(document.querySelector('#number-pixel'))
-        //   const numberRem = Number(document.querySelector('#number-rem'))
-    
-      let values = readData(numberPixel, numberRem)
 
-      if(validatorData(values)){
-        console.log(values);
-      }
-        
+function buttonAction(){
+  window.buttonaction = {}
+  window.buttonaction.handleClick = () => {
+    let values = {} 
+    pxValue() 
+    remValue()
+
+    if (validateData(values)){
+      convertDatas()
     }
+  }
+     
     return /*html*/`
      <button class="convert-button" onclick="buttonaction.handleClick()">converter</button>
     `
