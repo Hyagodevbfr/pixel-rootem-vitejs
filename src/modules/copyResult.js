@@ -1,6 +1,6 @@
 function copyResult(value){
     navigator.clipboard.writeText(copyRem(value))
-     alert('Copiado!')
+     alert(`${copyRem(value)} Copiado!`)
 }
 function copyRem(value){
     let Rem = `${value.toFixed(2)}rem`

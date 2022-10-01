@@ -1,13 +1,21 @@
 import { pxValue, remValue } from "./readData"
 import { resultArea } from "./resultArea"
 
- function convertDatas(){
-    let conversion = pxValue()/remValue()
-    let remConverted = Number(conversion)
+export function conversion(){
+    const Conversion = pxValue()/remValue()
     
-    resultArea(remConverted)
+    return Conversion
+}
+
+export function remConverted(){
+     const Converted = conversion()
+
+    return Converted
+}
+
+export default function convertDatas(){
+     resultArea(remConverted())
 
     return remConverted;
 };
 
-export default convertDatas
