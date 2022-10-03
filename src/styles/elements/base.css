@@ -18,15 +18,3 @@
     --btn-font-color: #171723;
     --input-font-color: #100f0f85;
 }
-
-body{
-    background-color: var(--color-background);
-    font-family: var(--font-principal);
-    padding: 10px;
-    height: 96vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    user-select: none;
-}
