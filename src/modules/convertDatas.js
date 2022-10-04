@@ -2,7 +2,7 @@ import { pxValue, remValue } from "./readData"
 import { resultArea } from "./resultArea"
 
 export function conversion(){
-    const Conversion = pxValue()/remValue()
+     const Conversion = pxValue()/remValue()
     
     return Conversion
 }
