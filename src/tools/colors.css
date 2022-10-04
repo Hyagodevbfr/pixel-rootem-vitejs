@@ -1,0 +1,31 @@
+body{
+    background-color: var(--color-background);
+    font-family: var(--font-principal);
+}
+.header-title{
+    font-family: var(--title-font);
+    color: var(--title-font-color);
+}
+button{
+    color: var(--btn-font-color);
+    background-color: var(--btn-bg-color);
+    box-shadow: 3px 5px 8px var(--shadow);
+}
+button:hover{
+    background-color: var(--btn-bg-color-hover);
+}
+input{
+    border: 1px solid var(--border);
+    color: var(--input-font-color);    
+}
+.result-text{
+    outline: 1px dashed var(--outline);
+}
+.result-text:hover{
+    background-color: var(--bg-result-hover);
+    outline: 1px dashed var(--outline-result-hover);
+    cursor: pointer;
+}
+::-webkit-input-placeholder{
+    color: var(--placeholder-color); 
+}

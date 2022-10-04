@@ -1,5 +1,6 @@
 import './src/tools/mediaQuery.css'
-import './src/styles/generic/reset.css'
+import './src/tools/colors.css'
+// import './src/styles/generic/reset.css'
 import './src/styles/elements/base.css'
 import './src/tools/mediaQuery.css'
 import headerTitle from './src/components/HeaderTitle/';
